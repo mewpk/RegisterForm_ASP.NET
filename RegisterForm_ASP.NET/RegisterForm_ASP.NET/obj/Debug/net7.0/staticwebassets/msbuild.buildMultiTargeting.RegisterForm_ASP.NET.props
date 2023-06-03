@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RegisterForm_ASP.NET.props" />
+</Project>

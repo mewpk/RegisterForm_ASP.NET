@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RegisterForm_ASP.NET.props" />
+</Project>
