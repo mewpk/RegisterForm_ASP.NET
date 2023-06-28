@@ -27,7 +27,7 @@ public class LineController : ControllerBase
 
         // Perform any actions with user profile data here
         var jsonContent = new StringContent(JsonSerializer.Serialize(data), Encoding.UTF8, "application/json");
-        var response = await _clientFactory.CreateClient().PostAsync("https://script.google.com/macros/s/AKfycbw1eqZMXLAQJdgFWsom8SfNd3oKlebf_yeuAKnKf5h_XjudL4GoDuSBuJOI-FrLyHK9xA/exec", jsonContent);
+        var response = await _clientFactory.CreateClient().PostAsync("https://script.google.com/macros/s/AKfycbyk1weoJ2OEEBaYu1tUJZbm_9F9wghpf7gTGTVZBXofFNfldRqQJBAT-uUO2HnIF2ba3g/exec", jsonContent);
 
         if (response.IsSuccessStatusCode)
         {
